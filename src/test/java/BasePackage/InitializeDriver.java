@@ -16,7 +16,7 @@ public class InitializeDriver {
 	
 	public WebDriver initdriver() throws IOException {
 		
-		FileInputStream fis = new FileInputStream("/Users/dilipreddy/Downloads/Automation/CucumberTest/src/test/java/input.properties");
+		FileInputStream fis = new FileInputStream("/Users/dilipreddy/Downloads/Automation/CucumberTest/src/test/java/Resources/input.properties");
 
 		Properties prop = new Properties();
 		prop.load(fis);
